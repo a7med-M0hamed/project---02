@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    direction: rtl;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.header{
+    background-image: url(../images/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh ;
+    overflow: auto;
+    position: relative;
+}
+.header .navbar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #98b0c5;
+    border-radius: 100px;
+}
+.header .navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .navbar .logo h3{
+    font-size: 25px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.header .navbar .logo p{
+    font-size: 15px;
+    font-family: 'Aref Ruqaa', serif;
+}
+.header .navbar ul{
+    display: flex;
+}
+.header .navbar ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Marhey', sans-serif;
+    font-size: 15px;
+}
+.header .navbar a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Aref Ruqaa', serif;
+}
+.header .text{
+    background-color:#dce8f3;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+.header .text h1{
+    font-size: 60px;
+    font-family: 'Kufam', sans-serif;
+    color: black;
+    padding: 20px;
+}
+.header .text p{
+    font-size: 20px;
+    font-family: 'Marhey', sans-serif;
+    padding-bottom: 20px;
+}
+.header .text a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:#1f2e3c ;
+    font-size: 23px;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 8px 50px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.header .text a:hover{
+    opacity: 1;
+    background-color: #4e667f;
+    padding: 10px 55px;
+    color: black;
+}
+/* end header section */
+/*  start second section "من نحن"  */
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right , #1f2e3c , #98b0c5);
+    margin-top: 5px;
+}
+.second .text{
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.second .text h1{
+    font-size: 50px;
+    font-family: 'Mada', sans-serif;
+    color: black;
+    border-bottom: 3px dashed white;
+    width: 200px;
+    margin: 0 auto;
+}
+.second .text h4{
+    font-size: 30px;
+    font-family: 'Aref Ruqaa', serif;
+    color: white;
+    padding-bottom: 20px;
+}
+.second .text p{
+    font-size: 20px;
+    font-family: 'Marhey', sans-serif;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+.second .text a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Kufam', sans-serif;
+    padding: 15px 50px;
+    background-color: #1f2e3c;
+    color: white;
+    border-radius: 10px;
+}
+.second .image img{
+    width: 550px;
+}
+/*  end second section "من نحن"  */
+/* start third sectio "رؤيتنا- اهدافنا - لماذا نحن" */
+.third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 15px;
+}
+.third .t{
+    width: calc(100 / 3);
+    /* background-image: linear-gradient(to right , #1f2e3c , #98b0c5); */
+    background-color:#4e667f;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.third .t .logo i{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.third .t .logo h1{
+    font-size: 30px;
+    font-family: 'Mada', sans-serif;
+    border-bottom: 3px dashed rgb(255, 255, 255);
+    width: 150px;
+}
+.third .t p{
+    font-size: 20px;
+    font-family: 'Marhey', sans-serif;
+}
+/* end third sectio "رؤيتنا- اهدافنا - لماذا نحن" */
+
+/*   start 4th - section "خدماتنا"  */
+.services .text{
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+.services .text h1{
+    font-size: 50px;
+    font-family: 'Mada', sans-serif;
+    color: black;
+    border-bottom: 3px dashed red;
+    width: 200px;
+    margin: 0 auto;
+}
+.services .text h4{
+    font-size: 30px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.services .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services .cards .s{
+    width: calc(100 / 3);
+    background-color: #1f2e3c;
+    color: white;
+    padding: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.services .cards .s h1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px dashed black;
+    width: fit-content;
+    border-radius: 40%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.services .cards .s p{
+    font-size: 25px;
+    font-family: 'Marhey', sans-serif;
+    margin-bottom: 40px;
+}
+.services .cards .s a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Kufam', sans-serif;
+    padding: 10px 50px;
+    background-color: #98b0c5;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+/*   end 4th - section "خدماتنا"  */
